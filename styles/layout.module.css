@@ -1,0 +1,115 @@
+.largeVector {
+  max-width: 90%;
+  max-height: 350px;
+  object-fit: contain;
+  text-align: center;
+}
+
+.smallVector {
+  max-width: 70%;
+  max-height: 200px !important;
+  object-fit: contain;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.spaced {
+  margin: 1rem !important;
+}
+
+.link {
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .page {
+    padding: 10px 15px;
+  }
+}
+
+.centerContainer {
+  text-align: center;
+}
+
+.center {
+  display: flex !important;
+  justify-content: center !important;
+  text-align: center;
+}
+
+.voteId {
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 0.5rem;
+  color: #6c5ce7;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.fixedWidthDescription {
+  max-width: 500px;
+}
+
+.candidatePicture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 2rem;
+}
+
+@media (min-width: 1000px) {
+  .largePageBodyContainer {
+    width: 800px;
+  }
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.deleteButton {
+  margin: 1rem;
+  border: solid 1px rgba(255, 0, 0, 0.7);
+  color: rgba(255, 0, 0, 0.7);
+}
+
+.listItemPrimaryText {
+  max-width: 230px;
+}
+
+.scrollableListContainer {
+  height: 300px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.scrollableList {
+  overflow: auto;
+  max-height: calc(100% - 1rem);
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.page {
+  min-height: 70vh;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.contentContainer {
+  margin: 0 1rem 2.5rem 1rem;
+}
+
+.normalLine {
+  line-height: 1rem;
+}

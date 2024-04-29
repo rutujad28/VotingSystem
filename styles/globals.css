@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.successSnackbar {
+  background-color: #10ac84 !important;
+  color: white;
+}
+
+.tox-statusbar__branding {
+  display: none;
+}
+
+.platform-image,
+.platform-iframe {
+  max-width: 90vw;
+  max-height: 600px;
+}
+
+.platform-image {
+  object-fit: contain;
+}
+
+.runoff-choice {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+.MuiPickersBasePicker-container .MuiTypography-body1 {
+  line-height: 1;
+  margin: 0;
+}
+
+.sanitized-html iframe {
+  max-width: 95%;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.sanitized-html pre {
+  overflow-x: auto;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+
+.sanitized-html {
+  overflow-wrap: break-word;
+  max-width: 100%;
+}
+
+.sanitized-html a {
+  color: rgba(108, 92, 231, 0.9);
+}
+
+.sanitized-html a:hover {
+  color: rgba(108, 92, 231, 1);
+}
+
+.sanitized-html h1 {
+  font-size: 1.8rem;
+}
+
+.sanitized-html h2 {
+  font-size: 1.6rem;
+}
+
+.sanitized-html h3 {
+  font-size: 1.4rem;
+}
+
+.sanitized-html h4 {
+  font-size: 1.25rem;
+}
+
+.sanitized-html h5 {
+  font-size: 1rem;
+}
+
+.crop-circle {
+  border-radius: 50%;
+}
